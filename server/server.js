@@ -68,7 +68,7 @@ app.use((req, res, next) => {
 // Routes
 app.get("/api/login", (req, res) => {
   // generate a constant token, no need to be fancy here
-  const token = jwt.sign({ username: "prima" }, jwtSecret, { expiresIn: 60 }); // 1 min token
+  const token = jwt.sign({ username: "prima" }, jwtSecret, { expiresIn: 3600 }); // 1 hour token
   // return it back
   res.json({ token: token });
 });
