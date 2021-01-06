@@ -9,7 +9,7 @@
   "author": "Eka",
   "license": "MIT",
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "next": "^9.4.4",
     "react": "^16.13.1",
     "react-cookie": "^4.0.3",
